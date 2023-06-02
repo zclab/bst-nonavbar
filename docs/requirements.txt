@@ -1,0 +1,11 @@
+sphinx
+sphinx-design>=0.4.1
+sphinx-copybutton
+sphinx-togglebutton
+sphinx-subfigure
+myst-nb
+matplotlib
+pandas
+ipyleaflet
+xarray
+git+https://github.com/zclab/bulma-sphinx-theme
