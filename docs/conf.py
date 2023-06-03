@@ -51,9 +51,9 @@ html_show_sourcelink = True
 todo_include_todos = True
 
 # https://github.com/hung1001/font-awesome-pro-v6
-html_css_files = [
-    "https://cdn.jsdelivr.net/gh/duyplus/fontawesome-pro/css/all.min.css",
-]
+# html_css_files = [
+#     "https://cdn.jsdelivr.net/gh/duyplus/fontawesome-pro/css/all.min.css",
+# ]
 
 html_theme_options = {
     "logo": {"text": "BST Demo", "logo": "_static/logo.svg"},
