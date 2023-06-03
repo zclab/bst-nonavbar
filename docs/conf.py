@@ -57,12 +57,23 @@ html_css_files = [
 
 html_theme_options = {
     "logo": {"text": "BST Demo", "logo": "_static/logo.svg"},
+    "icon_links": [
+        {
+            "name": "Github",
+            "url": "https://github.com/zclab/bulma-sphinx-theme",
+            "svg": "github",
+        },
+        {
+            "name": "Pypi",
+            "url": "https://pypi.org/project/bulma-sphinx-theme/",
+            "svg": "package",
+        },
+    ],
     "source_repository": "https://github.com/zclab/bst-nonavbar",
     "source_branch": "main",
     "source_directory": "docs/",
     "use_edit_page_button": True,
-    "fix_navbar": False,
-    "information_panel": [],
+    "information_panel": ["brand-logo.html", "search-button.html", "icon-links.html"],
     "have_top_navbar": False,
 }
 
