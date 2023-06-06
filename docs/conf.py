@@ -74,7 +74,7 @@ html_theme_options = {
     "source_directory": "docs/",
     "use_edit_page_button": True,
     "information_panel": ["brand-logo.html", "search-button.html", "theme-swither.html", "icon-links.html"],
-    "information_panel_include_directly":["brand-logo.html"],
+    "information_panel_include_directly":["brand-logo.html", "search-button.html"],
     "have_top_navbar": False,
 }
 
