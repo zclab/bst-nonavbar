@@ -60,7 +60,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "Github",
-            "url": "https://github.com/zclab/bulma-sphinx-theme",
+            "url": "https://github.com/zclab/bst-nonavbar",
             "svg": "github",
         },
         {
@@ -73,7 +73,7 @@ html_theme_options = {
     "source_branch": "main",
     "source_directory": "docs/",
     "use_edit_page_button": True,
-    "information_panel": ["brand-logo.html", "theme-swither.html", "search-button.html", "icon-links.html"],
+    "information_panel": ["brand-logo.html", "search-button.html", "theme-swither.html", "icon-links.html"],
     "information_panel_include_directly":["brand-logo.html"],
     "have_top_navbar": False,
 }
