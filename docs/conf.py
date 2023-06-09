@@ -39,7 +39,6 @@ intersphinx_mapping = {
 }
 
 templates_path = ["_templates"]
-
 html_static_path = ["_static"]
 html_theme = "bulma_sphinx_theme"
 html_title = "An example of bulma sphinx theme without navbar"
@@ -47,7 +46,6 @@ html_favicon = "_static/favicon.png"
 html_last_updated_fmt = ""
 html_logo = "_static/logo.svg"
 html_show_sourcelink = True
-
 todo_include_todos = True
 
 # https://github.com/hung1001/font-awesome-pro-v6
@@ -74,7 +72,7 @@ html_theme_options = {
     "source_directory": "docs/",
     "use_edit_page_button": True,
     "information_panel": {
-        "items":["brand-logo.html", "search-button.html"],
+        "items":["brand.html", "search-button.html"],
         "level_items": ["theme-swither.html", "icon-links.html"]
     },
     "have_top_navbar": False,
