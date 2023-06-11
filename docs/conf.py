@@ -76,6 +76,7 @@ html_theme_options = {
         "level_items": ["theme-swither.html", "icon-links.html"]
     },
     "have_top_navbar": False,
+    "navigation_depth": 5
 }
 
 html_context = {"default_mode": "auto"}
