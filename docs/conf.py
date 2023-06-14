@@ -71,10 +71,7 @@ html_theme_options = {
     "source_branch": "main",
     "source_directory": "docs/",
     "use_edit_page_button": True,
-    "sidenav_panel": {
-        "items":["brand.html", "search-button.html"],
-        "level_items": ["theme-swither.html", "icon-links.html"]
-    },
+    "sidenav_panel": ["brand.html", "search-button.html","theme-swither.html", "icon-links.html"],
     "have_top_navbar": False,
     "navigation_depth": 5
 }
