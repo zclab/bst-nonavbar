@@ -8,4 +8,5 @@ matplotlib
 pandas
 ipyleaflet
 xarray
-git+https://github.com/zclab/bulma-sphinx-theme
+bulma-sphinx-theme>=0.2.0rc1
+# git+https://github.com/zclab/bulma-sphinx-theme
